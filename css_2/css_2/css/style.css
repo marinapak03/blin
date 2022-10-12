@@ -1,0 +1,125 @@
+/*Обнуление css стилей*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline:none;}
+a:focus,a:active{outline: none;}
+
+nav,footer, header, aside{display: block;}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
+
+.areal{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.fontsize30{
+    font-size: 30px;
+}
+
+/*italic курсивный шрифт*/
+.italic{
+    font-style: italic;
+}
+
+/*700 жирный шрифт*/
+.font700{
+    font-weight: 700;
+}
+
+.colorred{
+    color: rgb(255, 0, 0)
+}
+
+/*выравнивание по правому краю*/
+.right{
+    text-align: right;
+}
+
+/*выравнивание по центру*/
+.center{
+    text-align: center;
+}
+
+/*занимает всю ширину пространства*/
+.textjustify{
+    text-align: justify;
+}
+
+/*подчеркивание, перечеркивание, линия над текстом
+  text-decoration: underline; подчеркивание
+  text-decoration: overline; над текстом
+  text-decoration: line-through; зачеркивание
+  text-decoration: none; убирает любой эффект*/
+.decoration{ 
+    text-decoration: line-through;
+}
+
+/*тень от текста; 
+смещеине по горизонтали, вертикали, размер размытия, цвет*/
+.shadow{
+    text-shadow: 1px 1px 1px black;
+}
+
+/*
+capitalize - первая буква каждого слова заглавная
+lowercase - все строчные
+uppercase - все заглавные*/
+.uppercase{
+    text-transform: uppercase; ;
+}
+
+/*отступ строки*/
+.ident{
+    text-indent: 50px;
+}
+
+/*величина расстояния между буквами*/
+.letterspace{
+    letter-spacing: 5px;
+}
+
+/*величина расстояния между словами*/
+.wordspace{
+    word-spacing: 5px;
+}
+
+/*управление свойствами пробела
+nowrap запрещает перенос строки
+normal отменит все действия*/
+.whitespace{
+    white-space: nowrap;
+}
+
+/*межстрочное расстояние*/
+.lineheight{
+    line-height: 30px;
+}
